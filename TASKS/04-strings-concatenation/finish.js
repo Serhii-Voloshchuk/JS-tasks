@@ -10,3 +10,21 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const firstName = 'Serhii'
+
+const secondName = 'Voloshchuk'
+
+const myJob = 'engeneer'
+
+
+//OPTION 1
+const concatString1 = 'My name is ' + firstName + ' ' + secondName + ' ' + myJob;
+
+console.log(concatString1)
+
+//OPTION 2 MORE COMMON
+
+const concatString2 = `My name is ${firstName} ${secondName} ${myJob}`
+
+console.log(concatString2)

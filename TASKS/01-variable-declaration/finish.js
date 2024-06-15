@@ -11,4 +11,4 @@
 
 const myCountry = 'Ukraine'
 
-console.log(myCountry)
+console.log(myCountry, 10, 'Kharkiv')

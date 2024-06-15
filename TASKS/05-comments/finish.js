@@ -7,3 +7,24 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+
+// some comment
+
+const comment = 'some string' //solution task two
+
+/*lorem ipsum ets
+lorem ipsum ets
+lorem ipsum ets
+lorem ipsum ets
+lorem ipsum ets
+*/
+
+/**
+ * 
+ * This is multiline comment
+ * 
+ * 
+ * 
+ * 
+ */
