@@ -4,3 +4,10 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+
+const myString = 'Some string created special for this task'
+
+const myStringLength = myString.length
+
+console.log(myStringLength)
