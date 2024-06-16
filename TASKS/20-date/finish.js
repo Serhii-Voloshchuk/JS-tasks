@@ -4,3 +4,9 @@
  *
  * 2. Выведите значение в консоль
  */
+
+const newDate = new Date()
+
+const currentDate = newDate.getTime()
+
+console.log(currentDate)
