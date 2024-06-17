@@ -11,7 +11,32 @@ let myVariable2 = '5'
 
 // Напишите код здесь
 
+let myVariable2Num = Number(myVariable2)
+
+if(myVariable1 <= myVariable2Num){
+    console.log(true)
+} else {
+    console.log(false)
+}
+
+
 myVariable1 = '20'
 myVariable2 = 100
 
 // Напишите код здесь
+
+let myVariable1Num = parseInt(myVariable1) //ПРЕДПОЧТИТЕЛЬНЫЙ ВАРИАНТ один из методов преобразования строки в число
+
+
+if(myVariable1Num <= myVariable2){
+    console.log(true)
+} else {
+    console.log(false)
+}
+
+
+const result = parseInt(myVariable1) <= parseInt(myVariable2)
+
+console.log(result)
+
+
