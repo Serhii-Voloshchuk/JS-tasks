@@ -11,6 +11,8 @@
  * 5. Если массив не отсортирован - вернуть "Массив не отсортирован"
  */
 
+
+
 function arraySortInfo(inputArr){
    if(
     inputArr.some((element) =>
@@ -38,12 +40,9 @@ function arraySortInfo(inputArr){
     return 'Массив отсортирован по убыванию'
     }
 
-return 'Массив не отсортирован'
+    return 'Массив не отсортирован'
 
 }
-
-   
-
 
 
 const a = [5, 'abc', 10, 1]
