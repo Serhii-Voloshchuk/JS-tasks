@@ -10,8 +10,15 @@
  */
 
 
+function isElementInArray(searchElement, inputArray) {
+  if (typeof searchElement !== 'object') {
+    return inputArray.includes(searchElement)
+  }
 
-
+  return inputArray
+  .map((element) => JSON.stringify(element))
+  .includes(JSON.stringify(searchElement))
+}
 
 
 
