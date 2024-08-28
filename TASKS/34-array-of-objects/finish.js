@@ -12,32 +12,32 @@
  * 4. Выведите результирующий массив в консоль
  */
 
-const cars = [
-    {
-        carBrand: 'Mercedec',
-        price: 30000,
-        sAvailableForSale: true,
-    },
 
+const Cars = [
+    {
+        carBrand: 'Toyota',
+        price: 22000,
+        isAvailableForSale: true
+    },
     {
         carBrand: 'BMW',
-        price: 42000,
-        sAvailableForSale: false,
+        price: 19000,
+        isAvailableForSale: false
     },
-
     {
-        carBrand: 'ZaZ',
-        price: 3000,
-        sAvailableForSale: false,
-    },
-]
-
-const newCar = {
-        carBrand: 'Mitsubisi',
-        price: 80000,
-        sAvailableForSale: true,
+        carBrand: 'Opel',
+        price: 15000,
+        isAvailableForSale: true
     }
 
-    cars.push(newCar)
+]
 
-    console.log(cars[1].carBrand)
+const newCar = {    
+        carBrand: 'Mercedes',
+        price: 32000,
+        isAvailableForSale: true
+    }
+
+Cars.push(newCar)
+
+console.log(Cars)

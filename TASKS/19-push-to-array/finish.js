@@ -8,11 +8,9 @@
  */
 
 
-const myArray = [1, 2, 3, 4, 5]
+const arr = [5, 'Serhii', true]
+arr.push('Voloshchuk')
 
-myArray.push('Serhii')
-myArray.push('Voloshchuk', 31)
+console.log(arr)
 
-console.log(myArray)
-
-console.log(myArray.length)
+console.log(arr.length)

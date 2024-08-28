@@ -8,16 +8,8 @@
  */
 
 
-const myArray = [5, 'Serhii', true, null]
+const arr = [5, 'Serhii', true]
 
-const myArrayLength = myArray.length
+console.log(arr[0])
 
-console.log(myArrayLength)
-
-console.log(myArray[0])
-
-
-
-
-
-
+console.log(arr.length)

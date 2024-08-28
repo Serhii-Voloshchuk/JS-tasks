@@ -8,8 +8,10 @@
  */
 
 
-const greeting = 'Good morning'
+let somestring
 
-const newGreeting = greeting.replace('morning', 'evening')
+somestring = 'Good Morning'
 
-console.log(newGreeting)
+const newString = somestring.replace('Morning', 'Evening')
+
+console.log(newString)

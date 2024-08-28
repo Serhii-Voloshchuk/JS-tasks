@@ -10,11 +10,8 @@
  */
 
 
-function myName() {
-
-    return console.log('Serhii')
-    
+function myName (){
+    console.log('Serhii Voloshchuk')
 }
-
 
 myName()

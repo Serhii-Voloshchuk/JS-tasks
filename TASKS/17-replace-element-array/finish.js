@@ -10,10 +10,10 @@
  */
 
 
-const myArray = [true, 'Serhii', 31]
+const arr = [5, 'Serhii', true]
 
-console.log(myArray)
+console.log(arr)
 
-myArray[1] = 'Voloshchuk'
+arr[1] = 'Voloshchuk'
 
-console.log(myArray)
+console.log(arr)

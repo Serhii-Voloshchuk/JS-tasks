@@ -16,4 +16,3 @@ console.log(a) // 17
 
 a /= 2
 console.log(a) // 8.5
-

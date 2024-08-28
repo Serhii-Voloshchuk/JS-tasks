@@ -6,8 +6,6 @@
  */
 
 
-const myString = 'Some string created special for this task'
+const someString = 'My name is Serhii'
 
-const myStringLength = myString.length
-
-console.log(myStringLength)
+console.log(someString.length)

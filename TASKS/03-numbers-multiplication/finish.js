@@ -9,18 +9,9 @@
  */
 
 
-const a = 2
+const a = 5
 
-const b = 3
+const b = 5
 
-const multiply = a * b
-
-console.log(multiply)
-
-
-
-
-
-
-
-
+const c = a*b
+console.log(c) 

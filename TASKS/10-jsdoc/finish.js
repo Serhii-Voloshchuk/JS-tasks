@@ -13,24 +13,16 @@
  * 4. Вызовите функцию
  */
 
+
 /**
- * Возвращает разницу двух чисел
- * @param {number} num1 
- * @param {number} num2 
+ *  * Возвращает разницу двух чисел
+ * @param {number} a
+ * @param {number} b
  * @returns {number} Разница чисел
  */
 
-function myFn (num1, num2){
-    return num1 - num2
+function foo(a, b){
+    return a - b
 }
 
-
-myFn(17, 4)
-
-
-
-
-
-
-
-
+console.log(foo(10, 5))

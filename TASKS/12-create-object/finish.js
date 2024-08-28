@@ -9,20 +9,12 @@
  * "My name is <name> <surname> and my favorite number is <favoriteNumber>"
  */
 
-
-const myObj = {
+const obj = {
     name: 'Serhii',
     surname: 'Voloshchuk',
-    favoriteNumber : 9
+    favoriteNumber: 9
 }
 
-console.log(`My name is ${myObj.name} ${myObj.surname} and my favorite namber
-is ${myObj.favoriteNumber}`)
+const {name, surname, favoriteNumber} = obj
 
-
-
-
-const personInfo = `My name is ${myObj.name} ${myObj.surname} and my favorite namber
-is ${myObj.favoriteNumber}`
-
-console.log(personInfo)
+console.log(`My name is ${name} ${surname} and my favorite number is ${favoriteNumber}`)

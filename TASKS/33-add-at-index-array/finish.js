@@ -9,18 +9,7 @@
 
 const myArray = [1, 2]
 
-/**
-myArray.splice(10, 0, 'abc')
-10 - индекс добавляемого елемента, 0 - Количество удаляемых элементов.
-Если установлено в 0, элементы не удаляются.
-'abc' - добавляемый елемент*/ 
+myArray[10] = 'abc'
 
-
-console.log(myArray)
-
-
-myArray[10] = 'abc';
-// myArray[10] = 123;
 console.log(myArray)
 console.log(myArray.length)
-

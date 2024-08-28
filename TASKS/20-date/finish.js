@@ -5,8 +5,9 @@
  * 2. Выведите значение в консоль
  */
 
-const newDate = new Date()
 
-const currentDate = newDate.getTime()
+const currentDate = new Date(5000)
 
-console.log(currentDate)
+const getTime = currentDate.getTime()
+
+console.log(getTime)

@@ -6,7 +6,6 @@
  * и выведите каждый элемент в консоль
  */
 
+const arr = [5, 'Serhii', true]
 
-const myArray = [1, 2, 3, 4, 5]
-
-myArray.forEach((element) => console.log(element))
+arr.forEach((el) => console.log(el))

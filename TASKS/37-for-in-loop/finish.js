@@ -14,9 +14,11 @@ const myObject = {
 Object.prototype.country = 'England'
 
 for (let key in myObject) {
-  if(myObject.hasOwnProperty(key)){
-    console.log(myObject[key])
-  }
+if(myObject.hasOwnProperty(key)){
+  console.log(myObject[key])
 }
-
-console.log(myObject.country, '******')
+  
+}
+for (let key in myObject) {
+  console.log(key); // Вывод: name, age, city, country
+}

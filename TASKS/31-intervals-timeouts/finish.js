@@ -13,17 +13,12 @@
  * "Сообщение номер 5"
  */
 
+
 let i = 1
 
-const intervalID = setInterval(() => {
-    console.log('Сообщение номер' + i)
-    i += 1
+const id = setInterval(() => {
+    console.log('Message number ' + i)
+    i = i + 1
 }, 2000)
 
-setTimeout (() => {
-    clearInterval(intervalID);
-}, 11000)
-
-
-console.log(intervalID)
-
+setTimeout(() => clearInterval(id), 11000)

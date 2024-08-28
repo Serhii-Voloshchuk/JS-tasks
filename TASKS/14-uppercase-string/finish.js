@@ -12,34 +12,9 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+const someString = 'My name is Serhii'
+console.log(someString instanceof String)
+console.log(typeof(someString))
 
-
-const myString = 'Developer'
-
-console.log(myString instanceof String)
-
-const myStringCheckTwo = typeof (myString)
-
-console.log(myStringCheckTwo)
-
-const myStringToUpperCase = myString.toUpperCase();
-
-console.log(myStringToUpperCase)
-
-// Создание єкземпляра String
-// const newString = new String('Serhii')
-
-// console.log(newString instanceof String)
-
-// console.log(typeof (newString))
-
-// console.log(newString.toUpperCase())
-
-
-
-
-
-
-
-
-
+const someStringToUppercase = someString.toUpperCase()
+console.log(someStringToUppercase)

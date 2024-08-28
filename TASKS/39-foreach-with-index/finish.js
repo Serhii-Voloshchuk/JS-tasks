@@ -11,18 +11,11 @@
 
 const myCities = ['London', 'New York', 'Singapore']
 
-const cityInfo = (city, index) => {
-    return  `${city} is at the index ${index} in the myCities array`
-}
-    
+const cityInfo = (city, index) => 
+`${city} is at the index ${index} in the myCities array`
+
 myCities.forEach((city, index) => console.log(cityInfo(city, index)))
 
-// function cityInfo (myCities, i){
-//     if (i => 0 && i < myCities.length){
-//     `${myCities[i]} is at the index ${i} in the myCities array`
-//     }
-    
-// }
-// console.log(cityInfo(myCities, 0))
-// console.log(cityInfo(myCities, 1))
-// console.log(cityInfo(myCities, 2))
+
+
+
