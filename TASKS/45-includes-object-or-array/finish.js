@@ -9,21 +9,16 @@
  * а затем применить метод "includes" с аргументом, который также будет преобразован в строку
  */
 
-
-function isElementInArray(searchElement, inputArray) {
-  if (typeof searchElement !== 'object') {
-    return inputArray.includes(searchElement)
+const isElementInArray = (searchElement, inputArray) => {
+  if(typeof(inputArray) !== 'object'){
+   return inputArray.includes(searchElement)
   }
 
   return inputArray
-  .map((element) => JSON.stringify(element))
+  .map((el) => JSON.stringify(el))
   .includes(JSON.stringify(searchElement))
+
 }
-
-
-
-
-
 
 
 const tags = [

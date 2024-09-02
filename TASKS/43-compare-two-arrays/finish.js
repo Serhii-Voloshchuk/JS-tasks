@@ -11,39 +11,6 @@
  * ВАЖНО: Исходите из того, что массивы содержат элементы примитивных типов
  */
 
-
-
-/**
- * 
-MY SOLUTION
-const areArraysEqual = (firstArray, secondArray) => {
-    if (firstArray.length !== secondArray.length ) {
-        return false
-    }
-
-    for(let i = 0; i < firstArray.length; i += 1){
-        if (firstArray[i] !== secondArray[i]) {
-            return false
-        }
-    }
-    return true
-}
-
-
- */
-
-const areArraysEqual = (firstArray, secondArray) => {
-    if( firstArray.length === secondArray.length &&
-        firstArray.every((element, index) => 
-        element === secondArray[index])
-    ) {
-        return true
-    }
-
-    return false
-}
-
-
 const a = [1, 2, 3]
 const b = [1, 2, 3]
 

@@ -13,12 +13,16 @@
  */
 
 
-const findPostById = (id, posts) => {
+const findPostById = (id, array) => {
+  const post = array.find((el) => el.postId === id)
 
-return posts.find(post => post.postId === id)
-
-
+  if(post){
+    console.log(post.postId)
+  }
+  return post
 }
+
+ 
 
 
 const posts = [
@@ -27,9 +31,6 @@ const posts = [
   { postId: 6134, commentsQuantity: 2 },
 ]
 
-
 console.log(findPostById(6134, posts)) // { postId: 6134, commentsQuantity: 2 }
 
 console.log(findPostById(4511, posts)) // undefined
-
-

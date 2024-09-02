@@ -7,20 +7,15 @@
  * равными сумме всех количеств в каждой категории
  */
 
+const quantitiesByCategories = products => {
+  return products.reduce((acc, product) => {
+    const {category, quantity} = product
 
-function quantitiesByCategories(products) {
-  return products.reduce((qntByCategories, product) => {
-    const { quantity, category } = product
-    qntByCategories[category] = (qntByCategories[category] || 0) + quantity 
+    acc[category] = (acc[category] || 0) + quantity // метод для создания подсчета нового св-ва
 
-    return qntByCategories
+    return acc
   }, {})
 }
-
-
-
-
-
 
 const inputProducts = [
   {

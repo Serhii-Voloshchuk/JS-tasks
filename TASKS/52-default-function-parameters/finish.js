@@ -13,14 +13,11 @@
  * ПРИМЕЧАНИЕ:
  * Внимательно сравните свои результаты с результатами тестовых вызовов
  */
-function weatherForecast (city, weather = 'Отличная погода!'){
 
-    // weather = weather !== undefined ? weather : 'Отличная погода!';
-    return `Прогноз погоды для города ${city} : ${weather}`;
-
+function weatherForecast(city, weather = 'frizing'){
+    // weather = weather != undefined ? weather : 'frizing'
+    return `Прогноз погоды для города ${city}: ${weather}`
 }
-
-
 
 
 console.log(weatherForecast('Dubai', 'Солнечно'))

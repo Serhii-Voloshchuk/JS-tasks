@@ -17,6 +17,17 @@ let person = {
   cartId: 435,
 }
 
+{
+  let _id, index, processed, cart
+  ; ({_id, index, processed, ...person} = person)
+  console.log(_id, processed, cart)
+}
+
+
+// delete person._id
+// delete person.index
+
+
 console.log(person)
 /*
 {

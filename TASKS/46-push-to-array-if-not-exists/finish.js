@@ -10,17 +10,23 @@
  * ПРИМЕЧАНИЕ: Мы предполагаем, что "inputArray" содержит элементы только примитивных типов
  */
 
-function pushIfUnique(inputArray, newElement) {
-    if (inputArray.includes(newElement)) {
-        return console.log(`${newElement} уже находится в массиве`)
+
+
+
+function pushIfUnique(inputArray, newElement){
+
+    for(const el of inputArray){
+        if(el === newElement){
+            console.log(`${newElement} уже находится в массиве`) 
+             return
+        }
+
+        
     }
+    inputArray.push(newElement)
 
-    return inputArray.push(newElement)
-    
+    console.log(inputArray)
 }
-
-
-
 
 
 

@@ -8,11 +8,10 @@
  */
 
 
-
 const isElementInArray = (inputArray, searchElement) => {
-   return inputArray.includes(searchElement)
-
+   return inputArray.some(element =>  element === searchElement);
 }
+   
 
 
 const transports = ['Bus', 'Car', 'Bicycle', 'Airplane']

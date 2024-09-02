@@ -7,8 +7,14 @@
  */
 
 
-function popularPostsIds(posts, minimalComentsQty) {
-  return posts.reduce((postIds, post) => post.comments >= minimalComentsQty ? postIds.concat([post.postId]) : postIds, [])
+
+function popularPostsIds (posts, minimalComentsQty){
+  return posts.reduce((acc, post) => {
+    if(post.comments >= minimalComentsQty){
+      acc.push(post.postId)
+    }
+    return acc
+  }, [])
 }
 
 
