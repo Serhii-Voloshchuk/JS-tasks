@@ -6,6 +6,10 @@
  */
 
 function square(a) {
+
+  if(arguments.length === 0){
+    throw new Error ('Error new blablabla')
+  }
   console.log(a * a)
 }
 
