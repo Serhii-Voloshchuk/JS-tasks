@@ -10,6 +10,16 @@
  * он должен получить значение по умолчанию 0
  */
 
+const shortPerson = ({name, info:{country, age}, postsQuantity = 0}) =>{
+  return {
+    n: name,
+    c: country,
+    a: age,
+    p: postsQuantity
+
+  }
+} 
+
 const person1 = {
   name: 'Mike',
   info: {

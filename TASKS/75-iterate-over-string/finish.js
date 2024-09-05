@@ -11,5 +11,22 @@ const str = 'Today is the best day of my life'
 
 // Напишите код здесь
 
+
+
+
+
+const array = str.toLowerCase().split('')
+
+for(let i = 0; i < array.length; i +=1){
+    if(vowels.includes(array[i])){
+
+        vowelsCount += 1
+
+}
+}
+
+
 console.log(vowelsCount)
+
+
 // 9

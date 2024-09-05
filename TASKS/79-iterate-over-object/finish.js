@@ -17,6 +17,14 @@ const objectWithNumbers = {
 }
 
 // Создайте функцию здесь
+const sumObjectValues = (numbers) => {
+return Object.values(numbers).reduce((acc, num) => {
+  if(typeof num === 'number') {
+    acc += num
+  }
+  return acc
+}, 0)
+}
 
 const result = sumObjectValues(objectWithNumbers)
 console.log(result)

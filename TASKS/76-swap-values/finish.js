@@ -12,5 +12,7 @@ console.log(a, b)
 
 // Напишите код здесь
 
+; [b,a] = [a,b]
+
 console.log(a, b)
 // second first
